@@ -119,9 +119,6 @@ h2.sec{font-size:15px;font-weight:600;margin:4px 0 0}
 .pm b{font-size:14px;font-weight:600}
 .pm small{font-size:12px;color:#475569}
 .qr{align-self:center;width:180px;height:180px;border-radius:16px;border:1px solid #E5E7EB;background:#fff;display:grid;place-items:center;padding:12px}
-.queue{background:#1D3F8F;color:#fff;border-radius:20px;padding:20px;display:flex;flex-direction:column;align-items:center;gap:2px}
-.queue small{color:#DCE5F8;font-size:13px}
-.queue strong{font-size:44px;letter-spacing:1px;line-height:1.2}
 .bio{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
 .bio div{background:#F8FAFC;border:1px solid #E5E7EB;border-radius:12px;padding:10px;display:flex;gap:8px;align-items:center;font-size:13px}
 .bio svg{color:#1D3F8F;flex:none}

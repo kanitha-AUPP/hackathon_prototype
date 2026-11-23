@@ -359,12 +359,6 @@
         <div class="qr-valid">{{t.validUntil}} {{cur.validUntil}}<sc-if value="{{cur.qrOk}}" hint-placeholder-val="{{ true }}"> · {{cur.daysLeft}}</sc-if></div>
         <p class="muted">{{t.visitQrSub}} {{t.validNote}}</p>
       </div>
-      <sc-if value="{{cur.hasQueue}}" hint-placeholder-val="{{ false }}">
-        <div class="queue"><small>{{t.queueNo}}</small><strong>{{cur.queue}}</strong></div>
-      </sc-if>
-      <sc-if value="{{cur.noQueue}}" hint-placeholder-val="{{ true }}">
-        <div class="note"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h10"></path></svg><span>{{t.queueLater}}</span></div>
-      </sc-if>
       <div class="card">
         <h2 class="sec" style="margin: 0">{{t.whereToGo}}</h2>
         <div class="off"><span class="ic" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.3-7-11a7 7 0 0 1 14 0c0 4.7-7 11-7 11z"></path><circle cx="12" cy="10" r="2.5"></circle></svg></span><span class="grow"><b>{{t.locAeon}}</b><small>{{t.locAeonSub}}</small></span></div>
